@@ -23,7 +23,8 @@ A data-driven approach to job market analysis helps:
 
 ## **Dataset**  
 - **49,197 job listings** from **23,501 employers** across **1,362 regions**.  
-- Includes job titles, salary ranges, employer details, required skills, and job locations.  
+- Only **1,771 vacancies (3.6%)** are related to **Data Science** roles.  
+- **3,553 employers (15%)** specialize in **software development**, indicating strong demand for IT professionals.  
 - Data is stored in a **relational PostgreSQL database** with multiple interconnected tables:  
 
 ![](scheme.png)  
@@ -33,16 +34,18 @@ Key SQL queries used in this project:
 - **Vacancy count analysis:** Total number of job postings.  
 - **Salary distribution:** Identifying salary trends by region and experience level.  
 - **Employer insights:** Most active companies hiring IT professionals.  
-- **Remote work trends:** Share of remote vs. office-based positions.  
+- **Remote work trends:** Evaluating salary differences between office-based and remote positions.  
 - **Job market segmentation:** Demand for skills based on job titles.  
 
 ## **Key Findings**  
 - **Mid-to-senior IT specialists are in highest demand.**  
 - **Salary ranges vary significantly depending on employer size and location.**  
-- **Remote work options have increased, particularly in tech-related roles.**  
-- **Certain regions have a much higher concentration of IT job openings.**  
+- **Only 2.8% of DS job postings** are open to **candidates without experience**, confirming a **high entry barrier**.  
+- **Remote work with full-time employment** offers **higher salaries on average** than office-based positions.  
+- **Certain regions (e.g., capital cities) have a much higher concentration of IT job openings.**  
 
 ## **Conclusions & Recommendations**  
 - This dataset provides **valuable insights into the job market**, supporting better career decisions.  
-- To improve job matching, **integrating multiple job board datasets** could enhance model accuracy.  
-- Further analysis could include **time-series tracking of salary trends** and **automated skill-matching algorithms**.  
+- **Integrating multiple job board datasets** would improve job recommendation accuracy.  
+- **Analyzing long-term trends** (e.g., the rise of remote work) can enhance predictive modeling.  
+- Further research could explore **automated skill-matching algorithms** and **time-series tracking of salary trends**.  
